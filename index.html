@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/base/jquery-ui.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <title>Work Day Scheduler</title>
+</head>
+
+<body>
+  <header class="jumbotron">
+    <h1 class="display-3">Work Day Scheduler</h1>
+    <p class="lead">A simple calendar app for scheduling your work day</p>
+    <p id="currentDay" class="lead"></p>
+  </header>
+  <section class="container">
+    <!-- Timeblocks go here -->
+  <ul>
+    <li class= "time-block">
+      <form class="row">
+        <p class="col-lg-1 col-md-2 col-sm-2 col-2 hour">9AM</p>
+        <textarea class="col-lg-10 col-md-9 col-sm-8 col-8 description" data-number=9></textarea>
+        <button class="col-lg-1 col-md-1 col-sm-2 col-2 saveBtn">
+          <i class="fas fa-save"></i> 
+        </button>
+      </form>
+    </li>
+    <li class= "time-block">
+      <form class="row">
+        <p class="col-lg-1 col-md-2 col-sm-2 col-2 hour">10AM</p>
+        <textarea class="col-lg-10 col-md-9 col-sm-8 col-8 description" data-number=10></textarea>
+        <button class="col-lg-1 col-md-1 col-sm-2 col-2 saveBtn">
+          <i class="fas fa-save"></i> 
+        </button>
+      </form>
+    </li>
+    <li class= "time-block">
+      <form class="row">
+        <p class="col-lg-1 col-md-2 col-sm-2 col-2 hour">11AM</p>
+        <textarea class="col-lg-10 col-md-9 col-sm-8 col-8 description" data-number=11></textarea>
+        <button class="col-lg-1 col-md-1 col-sm-2 col-2 saveBtn">
+          <i class="fas fa-save"></i> 
+        </button>
+      </form>
+    </li>
+    <li class= "time-block">
+      <form class="row">
+        <p class="col-lg-1 col-md-2 col-sm-2 col-2 hour"">12PM</p>
+        <textarea class="col-lg-10 col-md-9 col-sm-8 col-8 description" data-number=12></textarea>
+        <button class="col-lg-1 col-md-1 col-sm-2 col-2 saveBtn">
+          <i class="fas fa-save"></i> 
+        </button>
+      </form>
+    </li>
+    <li class= "time-block">
+      <form class="row">
+        <p class="col-lg-1 col-md-2 col-sm-2 col-2 hour">1PM</p>
+        <textarea class="col-lg-10 col-md-9 col-sm-8 col-8 description" data-number=13></textarea>
+        <button class="col-lg-1 col-md-1 col-sm-2 col-2 saveBtn">
+          <i class="fas fa-save"></i> 
+        </button>
+      </form>
+    </li>
+    <li class= "time-block">
+      <form class="row">
+        <p class="col-lg-1 col-md-2 col-sm-2 col-2 hour">2PM</p>
+        <textarea class="col-lg-10 col-md-9 col-sm-8 col-8 description" data-number=14></textarea>
+        <button class="col-lg-1 col-md-1 col-sm-2 col-2 saveBtn">
+          <i class="fas fa-save"></i> 
+        </button>
+      </form>
+    </li>
+    <li class= "time-block">
+      <form class="row">
+        <p class="col-lg-1 col-md-2 col-sm-2 col-2 hour">3PM</p>
+        <textarea class="col-lg-10 col-md-9 col-sm-8 col-8 description" data-number=15></textarea>
+        <button class="col-lg-1 col-md-1 col-sm-2 col-2 saveBtn">
+          <i class="fas fa-save"></i> 
+        </button>
+      </form>
+    </li>
+    <li class= "time-block">
+      <form class="row">
+        <p class="col-lg-1 col-md-2 col-sm-2 col-2 hour">4PM</p>
+        <textarea class="col-lg-10 col-md-9 col-sm-8 col-8 description" data-number=16></textarea>
+        <button class="col-lg-1 col-md-1 col-sm-2 col-2 saveBtn">
+          <i class="fas fa-save"></i>
+        </button>
+      </form>
+    </li>
+    <li class= "time-block">
+      <form class="row">
+        <p class="col-lg-1 col-md-2 col-sm-2 col-2 hour">5PM</p>
+        <textarea class="col-lg-10 col-md-9 col-sm-8 col-8 description" data-number=17></textarea>
+        <button class="col-lg-1 col-md-1 col-sm-2 col-2 saveBtn">
+          <i class="fas fa-save"></i>
+        </button>
+      </form>
+    </li>
+  </ul>
+</section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script type="text/javascript" src="./assets/js/script.js"></script>
+</body>
+
+</html>
