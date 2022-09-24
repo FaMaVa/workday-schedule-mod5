@@ -17,7 +17,7 @@ N/A
 
 ## Usage
 
-Link to webpage: 
+Link to webpage: https://famava.github.io/workday-schedule-mod5/
 <br/> 
 <br/>
 <br/>To use this webpage, you type a task into whichever time-bock you would like. Then, to save it, you press the save button (the blue floppy disk) associated with that time-block, and it will save the task to your computer's local storage. Once it is saved, that task will render on the time-block even if you refresh the page. Each time-block is color-coded (red for present, light-grey for past, and green for future). The color coding of the time blocks resets at midnight.
